@@ -1,0 +1,17 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/map/index",
+    "pages/mason/index",
+    "pages/willian/index",
+    "pages/bojue/index",
+    "pages/shouquan/index"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "金音乐器",
+    "navigationBarTextStyle":"black"
+  }
+}

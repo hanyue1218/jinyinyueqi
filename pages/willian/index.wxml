@@ -1,0 +1,48 @@
+<!--pages/willian/index.wxml-->
+<view class='shoutu'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/shoutu.png' mode='widthFix'></image>
+</view>
+<view class='content1'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/jyyq.png' mode='widthFix' class='content1Img'></image>
+  <view class='content1-1'>
+    <view class="content1-1Tab" bindtap='toShouye'>
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/shouye2.png'mode='widthFix'></image>
+      </view>
+      <view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/shouye1.png' mode='widthFix' class='Img1'></image>
+        <p class="p1">首页</p>
+      </view>
+    </view>
+    <view class="content1-1Tab"  bindtap='toAbout'>
+    <view bindtap="showitem">
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/pinpai2.png'mode='widthFix'></image>
+      </view>
+      
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/pinpai1.png' mode='widthFix' class='Img2'></image>
+        <p class="p1">品牌<image src='http://source.apichiyu.xyz/jinyinyueqi/jiaobiao.png' mode='widthFix' class='Img3'></image></p>
+        <navigator url="/pages/mason/index"><view class="{{open?'display_show':'display_none'}}" style='margin-top:-10rpx;'>美森瀚林钢琴</view></navigator>
+       <view class="{{open?'display_show':'display_none'}}">威廉世家钢琴</view>
+        <navigator url="/pages/bojue/index"><view class="{{open?'display_show':'display_none'}}">伯爵钢琴</view></navigator>
+        
+      </view>
+    </view>
+    <view class="content1-1Tab" bindtap='toShouquan' >
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/shouquan2.png'mode='widthFix'></image>
+      </view>
+     <view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/shouquan1.png' mode='widthFix' class='Img2'></image>
+        <p class="p1">授权</p>
+    </view>
+    </view>
+  </view>
+  </view>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/willian.png' mode='widthFix' class='willianImg'></image>
+  <view class='content6'> 
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/willian4.png' mode='widthFix'></image>
+  </view>
+<view class='jishu'>
+  <text>技术支持：河北驰宇网络科技有限公司</text>
+</view>

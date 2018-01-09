@@ -1,0 +1,66 @@
+<!--pages/bojue/index.wxml-->
+<view class='shoutu'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/shoutu.png' mode='widthFix'></image>
+</view>
+<view class='content1'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/jyyq.png' mode='widthFix' class='content1Img'></image>
+  <view class='content1-1'>
+    <view class="content1-1Tab" bindtap='toShouye'>
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/shouye2.png'mode='widthFix'></image>
+      </view>
+      <view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/shouye1.png' mode='widthFix' class='Img1'></image>
+        <p class="p1">首页</p>
+      </view>
+    </view>
+    <view class="content1-1Tab"  bindtap='toAbout'>
+      <view bindtap="showitem">
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/pinpai2.png'mode='widthFix'></image>
+      </view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/pinpai1.png' mode='widthFix' class='Img2'></image>
+        <p class="p1">品牌<image src='http://source.apichiyu.xyz/jinyinyueqi/jiaobiao.png' mode='widthFix' class='Img3'></image></p>
+        <navigator url="/pages/mason/index"><view class="{{open?'display_show':'display_none'}}" style='margin-top:-10rpx;'>美森瀚林钢琴</view></navigator>
+        <navigator url="/pages/willian/index"><view class="{{open?'display_show':'display_none'}}">威廉世家钢琴</view></navigator>
+        <view class="{{open?'display_show':'display_none'}}">伯爵钢琴</view>
+        
+      </view>
+    </view>
+    <view class="content1-1Tab" bindtap='toShouquan' >
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/shouquan2.png'mode='widthFix'></image>
+      </view>
+     <view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/shouquan1.png' mode='widthFix' class='Img2'></image>
+        <p class="p1">授权</p>
+    </view>
+    </view>
+  </view>
+  </view>
+  <view class='content2'>
+    <view class='content2_1'>
+      <text>子昊伯爵钢琴汲取欧洲贵族优雅恢弘之美，用欧洲顶级的钢琴设计和德国的制琴工艺演绎与生俱来的高傲与显赫。 </text>
+    </view>
+    <view class='content2_2'>
+      <text>“专注高端钢琴制造”，子昊伯爵钢琴以促进人们的音乐愉悦和生活品质为愿景，产品设计风格源自欧美国际精英设计团队为子昊伯爵钢琴旗舰产品提供研发和原创设计，确保了子昊伯爵钢琴产品的设计元素和时尚风格在市场上独树一帜，并保持足够的市场竞争优势。</text>
+    </view>
+    <view class='content2_3'>
+      <text>产品情景</text>
+    </view>
+    <view class='content2_4'>
+      <text decode='true'>子昊伯爵钢琴专注为全球用户提供优质产品和专业服务。\n 专业的生产能力、独特的营销模式和卓越专注的服务能力，使子昊伯爵钢琴成为众多消费者选择的优秀钢琴品牌。</text>
+    </view>
+  </view>
+  <view class='content3'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/bojue2.jpg' mode='widthFix'></image>
+  </view>
+  <view class='content4'>
+    <view class='content4_1'>子昊钢琴的共鸣盘木材都是选用最上等的云杉、北欧鱼鳞松、美国山毛榉、东北白松，外壳木材选用高密度环保板材，比绝大多数钢琴的木材厚实，庄重、美观的同时，实用性更强。</view>
+    <view class='content4_2'>子昊钢琴从整体的板材材质，到细微的琴腿部分都要比普通钢琴的板材更加结实耐用。</view>
+    <view class='content4_3'>子昊钢琴的所有板材及木制钢琴零部件，均在全电脑自动控制的大型木材千燥窑经过三年以上的千燥储存，针对不同材种、规格和使用要求对木材进行干燥处理，有效降低了木材的变形度</view>
+  </view>
+  <view class='jishu'>
+  <text>技术支持：河北驰宇网络科技有限公司</text>
+</view>
+

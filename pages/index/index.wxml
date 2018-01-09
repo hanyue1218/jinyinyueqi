@@ -1,0 +1,136 @@
+<!--index.wxml-->
+<view class='banner' id="banner">
+<swiper indicator-dots="{{indicatorDots}}"
+  autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+  <block wx:for="{{lunbo.imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image" mode='widthFix'/>
+    </swiper-item>
+  </block>
+</swiper>
+</view>
+<view class='content_daohang' >
+  <view class='content_daohang1'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/daohang1.png' mode='widthFix' class='dhImg1'></image>
+    <text class='dhText1'>石家庄中华大街新石北路交口西行100米天下玉苑43A</text>
+  </view>
+  <view class='content_daohang2' bindtap='toMap'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/daohang2.png' mode='widthFix' class='dhImg2'></image>
+    <text class='dhText2'>点击导航</text>
+  </view>
+</view>
+
+<view class='contentTel' bindtap='toTel'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/Tel.png' mode='widthFix' class='telImg'></image>
+  <text class='telText'>135-8216-1227</text>
+</view>
+<view class='content1'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/jyyq.png' mode='widthFix' class='content1Img'></image>
+  <view class='content1-1'>
+    <view class="content1-1Tab" bindtap='toTeacher'>
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/shouye2.png'mode='widthFix'></image>
+      </view>
+      <view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/shouye1.png' mode='widthFix' class='Img1'></image>
+        <p class="p1">首页</p>
+      </view>
+    </view>
+    <view class="content1-1Tab"  bindtap='toAbout'>
+      <view bindtap="showitem">
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/pinpai2.png'mode='widthFix'></image>
+      </view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/pinpai1.png' mode='widthFix' class='Img2'></image>
+        <p class="p1">品牌<image src='http://source.apichiyu.xyz/jinyinyueqi/jiaobiao.png' mode='widthFix' class='Img3'></image></p>
+        <navigator url="/pages/mason/index"><view class="{{open?'display_show':'display_none'}}" style='margin-top:-10rpx;'>美森瀚林钢琴</view></navigator>
+        <navigator url="/pages/willian/index"><view class="{{open?'display_show':'display_none'}}">威廉世家钢琴</view></navigator>
+        <navigator url="/pages/bojue/index"><view class="{{open?'display_show':'display_none'}}">伯爵钢琴</view></navigator>
+        
+      </view>
+    </view>
+    <view class="content1-1Tab" bindtap='toShouquan' >
+      <view class="content1-1Img">
+        <image class='img1' src='http://source.apichiyu.xyz/jinyinyueqi/shouquan2.png'mode='widthFix'></image>
+      </view>
+     <view>
+        <image src='http://source.apichiyu.xyz/jinyinyueqi/shouquan1.png' mode='widthFix' class='Img2'></image>
+        <p class="p1">授权</p>
+    </view>
+    </view>
+  </view>
+  <view>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/mason1.png' mode='widthFix' class='masonImg'></image>
+  </view>
+  <view>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/mason2.png' mode='widthFix' class='masonImg2'></image>
+  </view>
+  <view class='masonText'>
+    <view class='masonText1'>
+      <text>成立于1854年，美森翰林是美国历史最久、最受尊敬的</text>
+    </view>
+    <view class='masonText2'>
+      <text>钢琴制造商。</text>
+    </view>
+    <view class='masonText3'>
+      <text>数百名美国钢琴公司的蓬勃发展 19世纪末和20世纪初，</text>
+    </view>
+    <view class='masonText4'>
+      <text>亨利美森和埃蒙斯翰林…</text>
+    </view>
+  </view>
+  <view>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/mason3.png' mode='widthFix' class='masonImg3' bindtap='toMason'></image>
+  </view>
+</view>
+<view class='content2'>
+  <view class='jianjie'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/jianjie.png' mode='widthFix' class='jianjieImg'></image>
+  </view>
+  <view class='jianjieText'>
+    <text decode='true'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;石家庄金音乐器是一家集钢琴销售、钢琴出租、钢琴调律、乐器培训为一体的综合企业。主营欧美知名品牌钢琴、主营欧美知名品牌钢琴、中国名牌钢琴以及其它乐器；开设钢琴、古筝、小提琴等各类乐器培训。</text>
+  </view>
+  <view class='jianjietiao'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/jianjietiao.png' mode='widthFix' class='jianjieImg2'></image>
+  </view>
+  <view class='erweima'>
+    <image src='/pages/images/jyyqewm.png' mode='widthFix' class='ewmImg'></image>
+    <view class='ewmText'>
+      <text>扫码/搜索“金音乐器”进入公众号</text>
+    </view>
+  </view>
+</view>
+<view class='content3'>
+  <view class='content3_1'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/jyyq3.png' mode='widthFix'></image>
+  </view>
+  <view class='content3_2' bindtap='toMason'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/meisen.png' mode='widthFix' class='content3Img'></image>
+  </view>
+  <view class='content3_3' bindtap='toWillian'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/weilian.png' mode='widthFix' class='content3Img'></image>
+  </view>
+  <view class='content3_4' bindtap='toBojue'>
+    <image src='http://source.apichiyu.xyz/jinyinyueqi/bojue.png' mode='widthFix' class='content3Img'></image>
+  </view>
+</view>
+<view id='sq' class='content4'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/shouquan.png' mode='widthFix'></image>
+</view>
+<view class='jishu'>
+  <text>技术支持：河北驰宇网络科技有限公司</text>
+</view>
+<view class="section">
+<movable-area class="xuanfu">
+  <movable-view  x="{{telView.x}}" y="{{telView.y}}" direction="all" class='xuanfu1'>
+    <view class='xuanfuImg' bindtap="tap">
+      <image src='http://source.apichiyu.xyz/jinyinyueqi/xuanfu.png' mode='widthFix'></image> 
+    </view>
+    <view class='xuanfuTel' bindtap='toTel'>
+      <text>13582161227</text>
+    </view>
+  </movable-view>
+</movable-area>
+</view>
+
+

@@ -1,0 +1,144 @@
+/* pages/bojue/index.wxss */
+.shoutu image{
+  width: 100%;
+}
+.content1Img{
+  width: 420rpx;
+  margin-left: 165rpx;
+  margin-top: 43rpx;
+}
+.content1{
+  width: 100%;
+  margin: 0 auto;
+}
+.content1-1{
+  display:flex;
+  text-align: center;
+}
+.content1-1Tab{
+  width:250rpx;
+}
+.content1-1Img{
+  text-align: center;
+}
+.img1{
+  width: 137rpx;
+  flex-direction:row;
+  margin-top: 30rpx;
+}
+.Img1{
+  width: 13rpx;
+}
+.Img2{
+  width: 23rpx;
+}
+.Img3{
+  width: 18rpx;
+  display: block;
+  margin-left: 170rpx;
+  margin-top: -23rpx;
+}
+.p1{ 
+  font-size: 25rpx;
+  text-align: center;
+  color: #5a5a5a;
+  margin-left: 8rpx;
+}
+.display_show{
+    display: block;
+    border: 1px solid;    
+    border-color:  #595959;
+    padding: 8px;
+    color: #5a5a5a;
+    font-size: 25rpx;
+}
+.display_none{
+    display: none;
+}
+button::after{
+  background: none;
+  border: none;
+}
+.content2{
+  width: 100%;
+  height: 900rpx;
+  background-image: url('http://source.apichiyu.xyz/jinyinyueqi/bojue-bg.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.content2_1,.content2_2,.content2_4{
+  width: 85%;
+  margin-left: 7.5%;
+}
+.content2_1 text{
+  display: inline-block;
+  font-size: 21rpx;
+  margin-top: 415rpx;
+  line-height: 47rpx;
+}
+.content2_2 text{
+  display: inline-block;
+  font-size: 21rpx;
+  margin-top: 40rpx;
+  line-height: 47rpx;
+}
+.content2_3 text{
+  display: inline-block;
+  font-size: 30rpx;
+  margin-top: 40rpx;
+  line-height: 47rpx;
+}
+.content2_3{
+  width: 18%;
+  margin-left: 41%;
+}
+.content2_4 text{
+  display: inline-block;
+  font-size: 21rpx;
+  margin-top: 20rpx;
+  line-height: 47rpx;
+}
+.content3 image{
+  width: 100%;
+  margin-top: 65rpx;
+}
+
+.content4{
+  width: 98%;
+  height: 520rpx;
+  background-image: url('http://source.apichiyu.xyz/jinyinyueqi/bojue3.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  margin-left: 2%;
+  margin-top: 50rpx;
+}
+.content4_1{
+  display: inline-block;
+  margin-top: 10rpx;
+  width: 220rpx;
+  font-size: 19rpx;
+  margin-left: 250rpx;
+  line-height: 30rpx;
+}
+.content4_2{
+  width: 220rpx;
+  font-size: 19rpx;
+  line-height: 30rpx;
+  margin-top: 30rpx;
+  margin-left: 10rpx;
+}
+.content4_3{
+  width: 220rpx;
+  font-size: 19rpx;
+  line-height: 30rpx;
+  margin-left:490rpx; 
+  margin-top: -133rpx;
+}
+.jishu{
+  font-size: 25rpx;
+  color: #5a5a5a;
+  width: 60%;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}

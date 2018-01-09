@@ -1,0 +1,211 @@
+/* pages/willian/index.wxss */
+.shoutu image{
+  width: 100%;
+}
+.content1Img{
+  width: 420rpx;
+  margin-left: 165rpx;
+  margin-top: 43rpx;
+}
+.content1{
+  width: 100%;
+  margin: 0 auto;
+}
+.content1-1{
+  display:flex;
+  text-align: center;
+}
+.content1-1Tab{
+  width:250rpx;
+}
+.content1-1Img{
+  text-align: center;
+}
+.img1{
+  width: 137rpx;
+  flex-direction:row;
+  margin-top: 30rpx;
+}
+.Img1{
+  width: 13rpx;
+}
+.Img2{
+  width: 23rpx;
+}
+.Img3{
+  width: 18rpx;
+  display: block;
+  margin-left: 170rpx;
+  margin-top: -23rpx;
+}
+.p1{ 
+  font-size: 25rpx;
+  text-align: center;
+  color: #5a5a5a;
+  margin-left: 8rpx;
+}
+.display_show{
+    display: block;
+    border: 1px solid;    
+    border-color:  #595959;
+    padding: 8px;
+    color: #5a5a5a;
+    font-size: 25rpx;
+}
+.display_none{
+    display: none;
+}
+button::after{
+  background: none;
+  border: none;
+}
+.content2{
+  width: 100%;
+  background-color: #fff6ef;
+  padding-bottom: 20rpx;
+}
+.content2_1 image{
+  width: 150rpx;
+  margin-top: 15rpx;
+  margin-left: 305rpx;
+}
+.content2_1Text{
+  font-size: 21rpx;
+  font-weight: bold;
+  text-align: center;
+  width: 130rpx;
+  margin-left: 310rpx;
+}
+.content2_2{
+  margin-top: -20rpx;
+}
+.content2_2 image{
+  width: 370rpx;
+  margin-left: 180rpx;
+}
+.content2_3{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 370rpx;
+  margin-left: 180rpx;
+}
+.content2_3 text{
+  color: #937f70;
+}
+.content2_3_1 text,.content2_3_2 text{
+  font-size: 25rpx;
+  font-weight: bold;
+}
+.content2_3_1{
+  margin-top: -27rpx;
+}
+.content2_3_2{
+  margin-top: -10rpx;
+}
+.content2_3_3 text,.content2_3_4 text{
+  font-size: 13rpx;
+  font-weight: bold;
+}
+.content2_3_3{
+  margin-top: -22rpx;
+}
+.content2_3_4{
+  margin-top: -30rpx;
+}
+.content3{
+  width: 100%;
+  height: 510rpx;
+  background-image: url('http://source.apichiyu.xyz/jinyinyueqi/willian1.png');
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.content3_1 text{
+  display: inline-block;
+  margin-top: 330rpx;
+  color: #604639;
+  font-size: 25rpx;
+  margin-left: 130rpx;
+}
+.content3_2 image{
+  width: 350rpx;
+  margin-left: 22rpx;
+  margin-top: 15rpx;
+}
+.content3_3{
+  width:360rpx;
+  height: 30rpx;
+  font-size: 11rpx;
+  margin-left: 22rpx;
+  text-align: center;
+  overflow: hidden;
+}
+.content3_4{
+  width:360rpx;
+  height: 50rpx;
+  font-size: 10rpx;
+  margin-left: 22rpx;
+  margin-top: 5rpx;
+  overflow: hidden;
+}
+.content4{
+  width: 100%;
+  margin-top: 40rpx;
+}
+.content4_1 image{
+  width: 100%;
+}
+.content5{
+  width: 100%;
+  height: 400rpx;
+  background-image: url('http://source.apichiyu.xyz/jinyinyueqi/willian3.png');
+  background-repeat: no-repeat;
+  background-size: 110%;
+}
+.content5 text{
+  font-size: 25rpx;
+}
+.content5_1{
+  width: 40%;
+  margin: 0 auto;
+}
+.content5_1 text{
+  display: inline-block;
+  margin-top: 50rpx;
+}
+.content5_2{
+  width: 28%;
+  margin: 0 auto;
+}
+.content5_3{
+  width: 73%;
+  margin: 0 auto;
+}
+.content5_4{
+  width: 52%;
+  margin: 0 auto;
+}
+.content5_5{
+  width: 4%;
+  margin: 0 auto;
+}
+.content5_6{
+  width: 58%;
+  margin: 0 auto;
+}
+.content6 image{
+  width: 100%;
+  margin-top: 10rpx;
+}
+.jishu{
+  font-size: 25rpx;
+  color: #5a5a5a;
+  width: 60%;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.willianImg{
+  width: 100%;
+}

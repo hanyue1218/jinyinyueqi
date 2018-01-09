@@ -1,0 +1,7 @@
+<!--pages/shouquan/index.wxml-->
+<view class='content1'>
+  <image src='http://source.apichiyu.xyz/jinyinyueqi/shouquanshu.png' mode='widthFix'></image>
+</view>
+<view class='jishu'>
+  <text>技术支持：河北驰宇网络科技有限公司</text>
+</view>

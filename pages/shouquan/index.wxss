@@ -1,0 +1,12 @@
+/* pages/shouquan/index.wxss */
+.content1 image{
+  width: 100%;
+}
+.jishu{
+  font-size: 25rpx;
+  color: #5a5a5a;
+  width: 60%;
+  margin: auto;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
